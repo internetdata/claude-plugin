@@ -9,6 +9,9 @@
     "url": "https://internetdata.io"
   },
   "homepage": "https://docs.internetdata.io/integrations/mcp",
+  "documentationUrl": "https://docs.internetdata.io/integrations/mcp",
+  "privacyPolicyUrl": "https://internetdata.io/privacy",
+  "termsOfServiceUrl": "https://internetdata.io/terms",
   "repository": "https://github.com/internetdata/claude-plugin",
   "license": "MIT",
   "keywords": [
