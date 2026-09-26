@@ -1,9 +1,9 @@
 ---
 name: analyze-database
-description: Explore what is inside a InternetData database and analyze it - its columns and what a row means, a first look from its sample rows, and in Claude Code, counts and lookups over a downloaded copy. Use when someone asks what a database contains, wants example rows, or wants numbers from the data such as counts by provider, how much of a network is covered, or whether an address or range is in it.
+description: Explore what is inside an InternetData database and analyze it - its columns and what a row means, a first look from its sample rows, and in Claude Code, counts and lookups over a downloaded copy. Use when someone asks what a database contains, wants example rows, or wants numbers from the data such as counts by provider, how much of a network is covered, or whether an address or range is in it.
 ---
 
-# Analyze a InternetData database
+# Analyze an InternetData database
 
 1. Find the database with `list_databases` and use a `licensed` family's `versions[].id` (`vpn_ip_v1`, not `vpn_ip`).
 2. Call `database_metadata`. It gives the columns per format with their types and descriptions, including the allowed values of enum columns, a few sample rows, the row count, the build date and each file's size.
