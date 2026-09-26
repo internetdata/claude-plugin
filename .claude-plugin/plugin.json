@@ -1,0 +1,22 @@
+{
+  "name": "internetdata",
+  "displayName": "InternetData",
+  "version": "1.0.0",
+  "description": "Browse the InternetData IP databases your organization is licensed for: what each contains, sample rows, sizes and build dates, checksums for a copy you hold, and your download history.",
+  "author": {
+    "name": "InternetData",
+    "email": "support@internetdata.io",
+    "url": "https://internetdata.io"
+  },
+  "homepage": "https://docs.internetdata.io/integrations/mcp",
+  "repository": "https://github.com/internetdata/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ip database",
+    "ip intelligence",
+    "vpn",
+    "proxy",
+    "mmdb",
+    "mcp"
+  ]
+}

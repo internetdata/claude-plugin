@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "internetdata": {
+      "type": "http",
+      "url": "https://mcp.internetdata.io/mcp"
+    }
+  }
+}
