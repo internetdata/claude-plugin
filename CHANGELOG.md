@@ -2,6 +2,13 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.3 - 2026-09-27
+
+### Fixes
+
+- Open and close the README like the SDKs, the CLI and the MCP server ([`1f14296`](https://github.com/internetdata/claude-plugin/commit/1f14296f2a4e3a62c3eacf3341259da72a73e4c3))
+- Tell an evaluation sample from the database itself ([`dd6f713`](https://github.com/internetdata/claude-plugin/commit/dd6f713c48bd2bdd9f4ad016840c337383260f28))
+
 ## 1.0.2 - 2026-09-26
 
 ### Fixes
