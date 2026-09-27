@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.4 - 2026-09-27
+
+### Fixes
+
+- Say the plugin is InternetData's official one for Claude ([`7ad75ef`](https://github.com/internetdata/claude-plugin/commit/7ad75ef18ab8c13ec15e842e2530cd2f5d9d86d5))
+
 ## 1.0.3 - 2026-09-27
 
 ### Fixes
