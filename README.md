@@ -1,15 +1,13 @@
-# InternetData for Claude
+# [<img src="https://s3.internetdata.io/internetdata-public/brand/mark.svg" alt="InternetData" height="28"/>](https://internetdata.io/) InternetData Claude Plugin
 
-Ask Claude about the InternetData IP databases your organization is licensed for: which ones you hold, what is inside each, sample rows, sizes and build dates, whether a copy you downloaded is intact, and what happened to a download that failed. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
+[![version](https://img.shields.io/github/package-json/v/internetdata/claude-plugin?filename=.claude-plugin%2Fplugin.json)](CHANGELOG.md)
+[![license](https://img.shields.io/github/license/internetdata/claude-plugin)](LICENSE)
 
-## What's in it
+The official [Claude](https://claude.ai) plugin for the [InternetData](https://internetdata.io) API.
 
-- The InternetData MCP server at `https://mcp.internetdata.io/mcp`, with four read-only tools: `list_databases`, `database_metadata`, `database_checksum` and `list_downloads`.
-- Two skills that tell Claude how to use them well:
-  - `database-files` answers which databases you hold, how big they are, whether your copy is intact and why a download failed.
-  - `analyze-database` explains a database's columns and sample rows, and in Claude Code analyzes a downloaded copy.
+InternetData publishes IP databases: VPN and proxy address space, hosting and CDN ranges, provider catalogs, bogons and more, as gzipped CSV and as MMDB. With this plugin you can ask Claude about the ones your organization is licensed for: which ones you hold, what is inside each, sample rows, sizes and build dates, whether a copy you downloaded is intact, and what happened to a download that failed. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
 
-## Connect
+## Getting Started
 
 On claude.ai, in the desktop app or in Cowork, add InternetData from the directory, then connect it on the plugin's Connectors tab.
 
@@ -24,6 +22,13 @@ The first time a tool runs, you'll be asked to sign in with your InternetData ac
 
 To disconnect Claude, remove it under Connected applications at https://app.internetdata.io/settings/account/sessions. Access ends within about a minute.
 
+## What's in it
+
+- The InternetData MCP server at `https://mcp.internetdata.io/mcp`, with four read-only tools: `list_databases`, `database_metadata`, `database_checksum` and `list_downloads`.
+- Two skills that tell Claude how to use them well:
+  - `database-files` answers which databases you hold, how big they are, whether your copy is intact and why a download failed.
+  - `analyze-database` explains a database's columns and sample rows, and in Claude Code analyzes a downloaded copy.
+
 ## Try it
 
 - "Which IP databases are we licensed for, and when were they last built?"
@@ -35,6 +40,16 @@ To disconnect Claude, remove it under Connected applications at https://app.inte
 
 The plugin runs nothing on your machine. Claude sends the database ids you ask about to `https://mcp.internetdata.io/mcp`, which calls the InternetData API with the key you picked and returns the answer. Each request is logged against that key as any API call is. Our privacy policy is at https://internetdata.io/privacy, and questions go to support@internetdata.io.
 
+## Other Libraries
+
+There are official InternetData client libraries available for many languages including PHP, Python, Go, Java, Ruby, and many popular frameworks such as Django, Rails, and Laravel. See our GitHub at https://github.com/internetdata for more.
+
+## About InternetData
+
+IP intelligence databases: VPN, proxy, hosting, CDN and relay address space, provider catalogs and network metadata, published as CSV and MMDB.
+
+[<img src="https://s3.internetdata.io/internetdata-public/brand/mark.svg" alt="InternetData" height="64"/>](https://internetdata.io/)
+
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
