@@ -3,7 +3,7 @@
 [![version](https://img.shields.io/github/package-json/v/internetdata/claude-plugin?filename=.claude-plugin%2Fplugin.json)](CHANGELOG.md)
 [![license](https://img.shields.io/github/license/internetdata/claude-plugin)](LICENSE)
 
-The official [Claude](https://claude.ai) plugin for the [InternetData](https://internetdata.io) API.
+The official [InternetData](https://internetdata.io) plugin for [Claude](https://claude.com).
 
 InternetData publishes IP databases: VPN and proxy address space, hosting and CDN ranges, provider catalogs, bogons and more, as gzipped CSV and as MMDB. With this plugin you can ask Claude about the ones your organization is licensed for: which ones you hold, what is inside each, sample rows, sizes and build dates, whether a copy you downloaded is intact, and what happened to a download that failed. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
 
