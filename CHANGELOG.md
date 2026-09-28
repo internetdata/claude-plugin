@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.5 - 2026-09-28
+
+### Fixes
+
+- Send a reader without a license to the evaluation request ([`2315af9`](https://github.com/internetdata/claude-plugin/commit/2315af9a02b8717badef03d0b4ea3767775ed0b3))
+
 ## 1.0.4 - 2026-09-27
 
 ### Fixes
