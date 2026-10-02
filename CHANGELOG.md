@@ -2,6 +2,13 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.6 - 2026-10-02
+
+### Fixes
+
+- Describe InternetData as its site does ([`0402538`](https://github.com/internetdata/claude-plugin/commit/0402538e3772c1e842665023be1f351dc920f82c))
+- Name no framework libraries ([`dc30bd4`](https://github.com/internetdata/claude-plugin/commit/dc30bd44b94e16e9fcf9200b275f417519758c80))
+
 ## 1.0.5 - 2026-09-28
 
 ### Fixes
