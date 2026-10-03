@@ -2,7 +2,7 @@
   "name": "internetdata",
   "displayName": "InternetData",
   "version": "1.0.6",
-  "description": "Browse the InternetData IP databases your organization is licensed for: what each contains, sample rows, sizes and build dates, checksums for a copy you hold, and your download history.",
+  "description": "Browse the InternetData IP databases and which ones your organization holds: what each contains, sample rows, sizes and build dates, checksums for a copy you hold, and your download history.",
   "author": {
     "name": "InternetData",
     "email": "support@internetdata.io",

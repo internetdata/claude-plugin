@@ -1,6 +1,6 @@
 {
   "name": "internetdata",
-  "description": "The InternetData plugin for Claude: your licensed IP databases, what is inside them, and your download history.",
+  "description": "The InternetData plugin for Claude: our IP databases, which ones you hold, what is inside each, and your download history.",
   "owner": {
     "name": "InternetData",
     "email": "support@internetdata.io"
@@ -9,7 +9,7 @@
     {
       "name": "internetdata",
       "source": "./",
-      "description": "Browse the InternetData IP databases your organization is licensed for, their contents, checksums and download history."
+      "description": "Browse the InternetData IP databases, which ones your organization holds, their contents, checksums and download history."
     }
   ]
 }

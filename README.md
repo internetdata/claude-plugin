@@ -5,7 +5,7 @@
 
 The official [InternetData](https://internetdata.io) plugin for [Claude](https://claude.com).
 
-InternetData publishes IP and ASN databases: geolocation, anonymity, ownership and network data, as gzipped CSV and as MMDB. With this plugin you can ask Claude about the ones your organization is licensed for: which ones you hold, what is inside each, sample rows, sizes and build dates, whether a copy you downloaded is intact, and what happened to a download that failed. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
+InternetData publishes IP and ASN databases: geolocation, anonymity, ownership and network data, as gzipped CSV and as MMDB. With this plugin you can ask Claude about any of them: which ones your organization holds, what is inside each, sample rows, sizes and build dates, whether a copy you downloaded is intact, and what happened to a download that failed. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
 
 ## Getting Started
 
