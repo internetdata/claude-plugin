@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.7 - 2026-10-03
+
+### Fixes
+
+- Describe any published database, licensed or not ([`e304663`](https://github.com/internetdata/claude-plugin/commit/e3046634b879b239295e9671106d9eb4e283f3ee))
+
 ## 1.0.6 - 2026-10-02
 
 ### Fixes
