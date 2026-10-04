@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.8 - 2026-10-04
+
+### Fixes
+
+- Name the listing's icon in the manifest ([`d9bb946`](https://github.com/internetdata/claude-plugin/commit/d9bb946ebabde548c564893933b8e8c48a31aad5))
+
 ## 1.0.7 - 2026-10-03
 
 ### Fixes

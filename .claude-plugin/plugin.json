@@ -1,7 +1,7 @@
 {
   "name": "internetdata",
   "displayName": "InternetData",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Browse the InternetData IP databases and which ones your organization holds: what each contains, sample rows, sizes and build dates, checksums for a copy you hold, and your download history.",
   "author": {
     "name": "InternetData",
