@@ -12,6 +12,7 @@
   "documentationUrl": "https://docs.internetdata.io/integrations/mcp",
   "privacyPolicyUrl": "https://internetdata.io/privacy",
   "termsOfServiceUrl": "https://internetdata.io/terms",
+  "icon": "./.claude-plugin/icon.svg",
   "repository": "https://github.com/internetdata/claude-plugin",
   "license": "MIT",
   "keywords": [
