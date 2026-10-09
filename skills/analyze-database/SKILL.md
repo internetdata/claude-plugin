@@ -9,7 +9,7 @@ description: Explore what is inside an InternetData database and analyze it - it
 2. Call `database_metadata`. It gives the columns per format with their types and descriptions, including the allowed values of enum columns, a few sample rows, the row count, the build date and each file's size.
 3. Explain the columns in plain words and show the sample rows as a table. Say what one row means for this database, for example one address range and the provider it belongs to.
 4. The sample is a handful of rows picked at random when the database is built. It shows the shape of the data and is never enough to count from, so do not draw totals, shares or rankings from it. The row count is the only whole-dataset figure the metadata gives: `sample_entries` and `sample_size` describe the separate evaluation sample file, not the database or these rows.
-5. For real numbers, work on a full copy, which needs a `licensed` family. In Claude Code, with the `internetdata` CLI installed and signed in (`internetdata login`), tell the person the file size from step 2, then download and query it locally:
+5. For real numbers, work on a full copy, which needs a `licensed` family or an `open` one, free under CC BY-SA 4.0. In Claude Code, with the `internetdata` CLI installed and signed in (`internetdata login`), tell the person the file size from step 2, then download and query it locally:
 
    ```console
    internetdata db download vpn_ip_v1 vpn_ip_v1.csv.gz
