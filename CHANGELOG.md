@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.10 - 2026-10-13
+
+### Fixes
+
+- Say that every organization holds a license to the Open databases ([`24d6350`](https://github.com/internetdata/claude-plugin/commit/24d6350d15a4fb00e639177c4c704a29216eeaf0))
+
 ## 1.0.9 - 2026-10-09
 
 ### Fixes
