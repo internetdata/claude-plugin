@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.11 - 2026-11-02
+
+### Fixes
+
+- Write ID and IDs, not id and ids ([`e963cee`](https://github.com/internetdata/claude-plugin/commit/e963ceee6c1fffb5ee174af281cfcd58225aa09f))
+
 ## 1.0.10 - 2026-10-13
 
 ### Fixes
