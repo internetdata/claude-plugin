@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.0.12 - 2026-11-10
+
+### Fixes
+
+- Draw the icon without a style block, so the directory can show it ([`e4cfbb7`](https://github.com/internetdata/claude-plugin/commit/e4cfbb7fc23d0a80eb8c26b2ca29ca31048cc549))
+
 ## 1.0.11 - 2026-11-02
 
 ### Fixes
