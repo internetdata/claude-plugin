@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.1.0 - 2026-11-13
+
+### Features
+
+- Look up IP addresses, ASes and domains ([`9436190`](https://github.com/internetdata/claude-plugin/commit/9436190fdd865929117cc571e3fec738830ebca0))
+
 ## 1.0.12 - 2026-11-10
 
 ### Fixes
