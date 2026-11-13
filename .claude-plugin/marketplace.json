@@ -1,6 +1,6 @@
 {
   "name": "internetdata",
-  "description": "The InternetData plugin for Claude: our IP databases, which ones you hold, what is inside each, and your download history.",
+  "description": "The InternetData plugin for Claude: look up any IP address, AS or domain, and browse our databases and which ones you hold.",
   "owner": {
     "name": "InternetData",
     "email": "support@internetdata.io"
@@ -9,7 +9,7 @@
     {
       "name": "internetdata",
       "source": "./",
-      "description": "Browse the InternetData IP databases, which ones your organization holds, their contents, checksums and download history."
+      "description": "Look up IP addresses, ASes and domains, screen a list of signups or log lines, and browse the InternetData databases your organization holds."
     }
   ]
 }
