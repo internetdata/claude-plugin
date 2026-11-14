@@ -18,3 +18,5 @@ description: Explore what is inside an InternetData database and analyze it - it
 
    The CLI verifies the checksum before it finishes. Use whatever the person has for the query, whether that is duckdb, sqlite or pandas, and base column names on the metadata rather than guessing.
 6. Outside Claude Code there is no terminal to download into. Answer what the metadata and samples can, and say that counting needs a downloaded copy.
+
+To check single addresses rather than the database as a whole, `lookup_ip` and `lookup_ips` answer from the same data without a download.
