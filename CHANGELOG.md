@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.1.3 - 2026-11-14
+
+### Fixes
+
+- Name the support page, so the directory stops guessing it ([`8ef6a87`](https://github.com/internetdata/claude-plugin/commit/8ef6a8758c8cceafca8a3661b0d0cf1e49833fbf))
+
 ## 1.1.2 - 2026-11-14
 
 ### Fixes
