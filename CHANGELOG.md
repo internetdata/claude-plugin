@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.1.1 - 2026-11-14
+
+### Fixes
+
+- Count an AS's prefixes from its totals: a big AS's answer lists 100 ([`6b68c56`](https://github.com/internetdata/claude-plugin/commit/6b68c56cc639d51762181345b526cf0154c1ba77))
+
 ## 1.1.0 - 2026-11-13
 
 ### Features
