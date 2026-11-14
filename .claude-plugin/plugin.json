@@ -1,7 +1,7 @@
 {
   "name": "internetdata",
   "displayName": "InternetData",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Look up any IP address, AS or domain with InternetData: where an address is, whose network it's on, whether it's a VPN, a proxy, Tor or a hosting provider, a domain's DNS records and an AS's prefixes. Browse the InternetData databases and which ones your organization holds, too.",
   "author": {
     "name": "InternetData",

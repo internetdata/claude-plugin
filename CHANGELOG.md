@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.1.2 - 2026-11-14
+
+### Fixes
+
+- Point at the lookups for single addresses, as the database skill now can ([`c83a82c`](https://github.com/internetdata/claude-plugin/commit/c83a82c88edb97d58914aa8d86143480cc8e3bb5))
+
 ## 1.1.1 - 2026-11-14
 
 ### Fixes
