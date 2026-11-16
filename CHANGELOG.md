@@ -2,6 +2,16 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.0 - 2026-11-16
+
+### Features
+
+- Report an AS's rank, neighbors and hosted domains ([`60d00ca`](https://github.com/internetdata/claude-plugin/commit/60d00ca4e8f614c6b2bafbb2287b0a7b1e6ada34))
+
+### Fixes
+
+- Point the homepage and documentation at the Claude page ([`9026468`](https://github.com/internetdata/claude-plugin/commit/90264681806e5c1ba6dcb16d5f7b48b8d8d0a740))
+
 ## 1.1.3 - 2026-11-14
 
 ### Fixes
