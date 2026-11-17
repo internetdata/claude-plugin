@@ -2,6 +2,13 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.1 - 2026-11-17
+
+### Fixes
+
+- Say when an overage cap, not the plan, held fields back ([`58c3b6b`](https://github.com/internetdata/claude-plugin/commit/58c3b6badd0e489bbe095870c79f7435c71c1c0a))
+- Read each list of an AS's neighbors as its first 100 ([`f097c93`](https://github.com/internetdata/claude-plugin/commit/f097c93bb80f24b0625027a866cc0a0f6c089a43))
+
 ## 1.2.0 - 2026-11-16
 
 ### Features
