@@ -51,7 +51,7 @@ There are official InternetData client libraries available for many languages in
 
 ## About InternetData
 
-Trusted IP data and domain intelligence: an API to look up any address, AS or domain, and databases you hold.
+Geolocation, anonymity, ownership, network, service and domain data for any IP address, AS or domain, by API or as databases you download.
 
 [<img src="https://s3.internetdata.io/internetdata-public/brand/mark.svg" alt="InternetData" height="64"/>](https://internetdata.io/)
 
