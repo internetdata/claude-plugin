@@ -9,7 +9,7 @@
     {
       "name": "internetdata",
       "source": "./",
-      "description": "Look up IP addresses, ASes and domains, screen a list of signups or log lines, and browse the InternetData databases your organization holds."
+      "description": "Look up IP addresses, ASNs and domains, screen a list of signups or log lines, and browse the InternetData databases your organization holds."
     }
   ]
 }
