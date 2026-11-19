@@ -2,6 +2,13 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.2 - 2026-11-19
+
+### Fixes
+
+- Say ASNs, not ASes, in the marketplace description ([`ffe871b`](https://github.com/internetdata/claude-plugin/commit/ffe871b03c62343892fdfc676d356595951f4bb6))
+- README: close on the line the SDKs and the MCP server close on ([`c7bd3a2`](https://github.com/internetdata/claude-plugin/commit/c7bd3a2cbf52305f6510ce9005ad0e7212c900c9))
+
 ## 1.2.1 - 2026-11-17
 
 ### Fixes
