@@ -2,6 +2,13 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.3 - 2026-11-20
+
+### Fixes
+
+- README and listing: the free trial without a count ([`6f4d7ab`](https://github.com/internetdata/claude-plugin/commit/6f4d7abab45bacf79d7343bc97d855ac338c5ae0))
+- README: link InternetData's page in the directory ([`45a403d`](https://github.com/internetdata/claude-plugin/commit/45a403d4ac95b8aee741206a57aed145c0dd573d))
+
 ## 1.2.2 - 2026-11-19
 
 ### Fixes
