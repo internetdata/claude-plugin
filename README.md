@@ -18,7 +18,7 @@ In Claude Code:
 /plugin install internetdata@internetdata
 ```
 
-The first time a tool runs, you'll be asked to sign in with your InternetData account and pick the API key Claude should use. Claude never sees the key: our MCP server uses it on your behalf. Any key answers lookups, with every field on a paid plan and in the free plan's first 100 lookups each day; the database tools need the `db.download` scope, which your organization's `Default` key has. Databases are licensed by contract. The Open ones, `tor_ip_v1` among them, are licensed to every organization from the start and are free under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). For the rest, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Evaluation+license).
+The first time a tool runs, you'll be asked to sign in with your InternetData account and pick the API key Claude should use. Claude never sees the key: our MCP server uses it on your behalf. Any key answers lookups, with every field on a paid plan and during the free plan's trial; the database tools need the `db.download` scope, which your organization's `Default` key has. Databases are licensed by contract. The Open ones, `tor_ip_v1` among them, are licensed to every organization from the start and are free under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). For the rest, [request an evaluation](https://internetdata.io/contact?purpose=evaluation&subject=Evaluation+license).
 
 To disconnect Claude, remove it under Connected applications at https://app.internetdata.io/settings/account/sessions. Access ends within about a minute.
 
