@@ -9,7 +9,7 @@ InternetData answers what its data says about any IP address, AS or domain, and 
 
 ## Getting Started
 
-On claude.ai, in the desktop app or in Cowork, add InternetData from the directory, then connect it on the plugin's Connectors tab.
+On claude.ai, in the desktop app or in Cowork, add InternetData from [the directory](https://claude.ai/directory/internetdata), then connect it on the plugin's Connectors tab.
 
 In Claude Code:
 
