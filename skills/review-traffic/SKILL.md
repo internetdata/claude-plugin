@@ -14,9 +14,13 @@ description: Screen a batch of signups, logins, orders, reviews or log lines for
    - `is_pubproxy`: a public proxy, one anyone can use for free, so read it like a datacenter proxy.
    - `is_relay`: a privacy relay such as iCloud Private Relay: ordinary people with a privacy setting on. Weigh it lightly.
    - `is_cdn`: a CDN range. Usually a service fetching on someone's behalf.
+   - `is_ssh`, `is_smtp`, `is_web`, `is_dns_resolver`: an SSH, mail or web server, or an open DNS resolver, answered on the address. A person's own connection rarely runs one, so read it with `is_hosting`: a server, not a person at a device.
+   - `is_anycast`: the address is announced from many places at once, as a public DNS resolver's or a CDN's edge is. A person's own connection is not.
+   - `is_carrier`, `is_satellite`: a mobile carrier's or a satellite operator's space, named in `carrier.name` or `satellite.provider_name`. Many people share one address there, so several accounts behind one such address is expected, not a pattern. Neither is anonymization.
+   - `is_bittorrent`: a BitTorrent client was seen on the address in the last 90 days. Common on home connections; on a hosting range, a seedbox or a server. `bittorrent.indexer` true means a DHT indexer rather than people.
 
-   Every result also carries `location` (the country, its continent and timezone), `asn` (the network: its number and name) and `company` (who uses the address), with a key or without one. None of them is a verdict, but they group the records: a country that doesn't match the account's, one network or one company behind many accounts.
-4. Report a count per category, then a table of the flagged records with the identifying fields, the address, the category, the provider where known, and the country and network. Then call out patterns that only show up across records: one provider, one network or one address behind many accounts, bursts in time, or several accounts sharing an address.
+   Every result also carries `hostname` (the reverse DNS name), `location` (the country, its continent and timezone), `asn` (the network: its number and name) and `company` (who uses the address), with a key or without one. None of them is a verdict, but they group the records: a country that doesn't match the account's, one network or one company behind many accounts.
+4. Report a count per category, then a table of the flagged records with the identifying fields, the address, the category, the provider where known, and the country, network and company. Then call out patterns that only show up across records: one provider, one network or one address behind many accounts, bursts in time, or several accounts sharing an address.
 5. Offer the full joined table as CSV if the person wants to act on it.
 
 Keep the conclusions to what the data shows. A flag says the network is anonymized, not that the person is acting in bad faith, so present the evidence and let the person asking make the call unless they ask you to recommend one.

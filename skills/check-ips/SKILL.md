@@ -1,6 +1,6 @@
 ---
 name: check-ips
-description: "Look up IP addresses with InternetData: where each one is, whose network it's on and who uses it, its abuse contact and reverse DNS name, whether it's a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay, a hosting provider or a CDN, and which services answer on it. Use when someone gives you one or more IP addresses, or text that contains them, and asks where they are, who owns or operates them, whether they're anonymized or risky, or where to report abuse from them."
+description: "Look up IP addresses with InternetData: where each one is, whose network it's on and who uses it, its abuse contact and reverse DNS name, whether it's a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay, a hosting provider or a CDN, whether it's anycast or a mobile carrier's or satellite operator's space, and which services answer on it. Use when someone gives you one or more IP addresses, or text that contains them, and asks where they are, who owns or operates them, whether they're anonymized or risky, or where to report abuse from them."
 ---
 
 # Look up IP addresses with InternetData
