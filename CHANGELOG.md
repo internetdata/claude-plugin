@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.4 - 2026-11-21
+
+### Fixes
+
+- README: a key needs the ip.lookup scope to look anything up ([`f2a80b4`](https://github.com/internetdata/claude-plugin/commit/f2a80b43b09b68f83935e91b5fa78847d8adf548))
+
 ## 1.2.3 - 2026-11-20
 
 ### Fixes
