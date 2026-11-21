@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.2.5 - 2026-11-21
+
+### Fixes
+
+- Read the service, anycast, carrier and satellite flags ([`a16bd5f`](https://github.com/internetdata/claude-plugin/commit/a16bd5fe0ba10c475f45052e1df67f3518ac2837))
+
 ## 1.2.4 - 2026-11-21
 
 ### Fixes
