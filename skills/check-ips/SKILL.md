@@ -1,6 +1,6 @@
 ---
 name: check-ips
-description: "Look up IP addresses with InternetData: where each one is, whose network it's on and who uses it, its abuse contact and reverse DNS name, whether it's a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay, a hosting provider or a CDN, whether it's anycast or a mobile carrier's or satellite operator's space, and which services answer on it. Use when someone gives you one or more IP addresses, or text that contains them, and asks where they are, who owns or operates them, whether they're anonymized or risky, or where to report abuse from them."
+description: "Look up IP addresses with InternetData: where each one is, whose network it's on and who uses it, its abuse contact and reverse DNS name, whether it's a VPN, a residential, datacenter, mobile or public proxy, a Tor node, a privacy relay, a hosting provider or a CDN, whether a crawler or other bot uses it, and whose, whether it's anycast or a mobile carrier's or satellite operator's space, and which services answer on it. Use when someone gives you one or more IP addresses, or text that contains them, and asks where they are, who owns or operates them, whether they're anonymized or risky, or where to report abuse from them."
 ---
 
 # Look up IP addresses with InternetData
@@ -11,6 +11,7 @@ description: "Look up IP addresses with InternetData: where each one is, whose n
 4. A private or reserved address comes back with `is_bogon: true`. Report it as an internal address, not as a clean one.
 5. Report what came back:
    - One address: where it is, the network and the company behind it, then each positive classification with its provider name when the result has one, then the abuse contact if the person asked who to report to.
+   - For `is_bot`, name the operator from `bot.provider_name` and say whether `bot.verified`: a verified crawler is its operator's own, while for any other it's only the operator the bot claimed to be, and a `spoofed` or `undeclared` one is worth saying plainly.
    - Several: a table of address, country, network or company, what it is (VPN, residential proxy, Tor, hosting and so on, or nothing found), provider, and notes, with flagged addresses first, then one line counting each category.
    - Quote raw JSON only when asked.
 6. If `lookup_ips` returns an error in place of a result for an address, show it in that row and keep the rest. If a call is refused with `unauthorized`, the connection needs signing in again. If it is refused for going over the plan's allowance, check `my_entitlement` and say when it resets.

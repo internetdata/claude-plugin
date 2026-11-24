@@ -1,6 +1,6 @@
 ---
 name: review-traffic
-description: Screen a batch of signups, logins, orders, reviews or log lines for anonymized or automated traffic with InternetData, keeping each result next to the record it came from. Use when someone shares an export, a CSV, a table or a log file and asks which entries came from VPNs, proxies, Tor or hosting, which countries or networks they came from, or asks for help spotting fraud, abuse or account sharing by network.
+description: Screen a batch of signups, logins, orders, reviews or log lines for anonymized or automated traffic with InternetData, keeping each result next to the record it came from. Use when someone shares an export, a CSV, a table or a log file and asks which entries came from VPNs, proxies, Tor, hosting or bots, which countries or networks they came from, or asks for help spotting fraud, abuse or account sharing by network.
 ---
 
 # Review traffic with InternetData
@@ -18,6 +18,7 @@ description: Screen a batch of signups, logins, orders, reviews or log lines for
    - `is_anycast`: the address is announced from many places at once, as a public DNS resolver's or a CDN's edge is. A person's own connection is not.
    - `is_carrier`, `is_satellite`: a mobile carrier's or a satellite operator's space, named in `carrier.name` or `satellite.provider_name`. Many people share one address there, so several accounts behind one such address is expected, not a pattern. Neither is anonymization.
    - `is_bittorrent`: a BitTorrent client was seen on the address in the last 90 days. Common on home connections; on a hosting range, a seedbox or a server. `bittorrent.indexer` true means a DHT indexer rather than people.
+   - `is_bot`: an automated client uses the address, such as a search engine's or an AI company's crawler, a monitor or a scanner. On a paid plan `bot.provider_name` says whose, or whose it claimed to be where it isn't verified, and `bot.identity` how far to trust it: `verified` (the operator vouches for the address), `declared` (it names itself a bot), `spoofed` (it claimed a bot whose operator vouches for other addresses) or `undeclared` (it hides as a browser). A signup or order from one is most likely automation rather than a person, and `spoofed` or `undeclared` is the one to flag.
 
    Every result also carries `hostname` (the reverse DNS name), `location` (the country, its continent and timezone), `asn` (the network: its number and name) and `company` (who uses the address), with a key or without one. None of them is a verdict, but they group the records: a country that doesn't match the account's, one network or one company behind many accounts.
 4. Report a count per category, then a table of the flagged records with the identifying fields, the address, the category, the provider where known, and the country, network and company. Then call out patterns that only show up across records: one provider, one network or one address behind many accounts, bursts in time, or several accounts sharing an address.

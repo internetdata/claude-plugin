@@ -5,7 +5,7 @@
 
 The official [InternetData](https://internetdata.io) plugin for [Claude](https://claude.com).
 
-InternetData answers what its data says about any IP address, AS or domain, and publishes the databases behind it. With this plugin you can ask about an address, a list of them, a domain or an AS: where an address is, whose network it's on, whether it's a VPN, a proxy, Tor or a hosting provider, a domain's DNS records and an AS's prefixes. You can also ask about the databases: which ones your organization holds, what is inside each, whether a copy you downloaded is intact, and what happened to a download that failed. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
+InternetData answers what its data says about any IP address, AS or domain, and publishes the databases behind it. With this plugin you can ask about an address, a list of them, a domain or an AS: where an address is, whose network it's on, whether it's a VPN, a proxy, Tor or a hosting provider, whether a bot uses it and whose, a domain's DNS records and an AS's prefixes. You can also ask about the databases: which ones your organization holds, what is inside each, whether a copy you downloaded is intact, and what happened to a download that failed. It works in Claude on the web, desktop and mobile, in Cowork and in Claude Code.
 
 ## Getting Started
 
