@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.3.0 - 2026-11-24
+
+### Features
+
+- check-ips and review-traffic read is_bot and whose bot it is ([`4c1ffba`](https://github.com/internetdata/claude-plugin/commit/4c1ffba3517bed4100e443eb758bee837641a673))
+
 ## 1.2.5 - 2026-11-21
 
 ### Fixes
