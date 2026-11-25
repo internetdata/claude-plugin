@@ -2,6 +2,12 @@
 
 What each release changed for you, newest first. Each line is a commit's summary, linked to its full description and diff.
 
+## 1.4.0 - 2026-11-25
+
+### Features
+
+- check-ips and review-traffic check the user agent an address sent ([`d3cee5d`](https://github.com/internetdata/claude-plugin/commit/d3cee5d2e30ed161263a7f84257902a4deb79e7a))
+
 ## 1.3.0 - 2026-11-24
 
 ### Features
